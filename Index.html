@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
     <title>Inicio de sesión</title>
 </head>
+
 <body>
-    
+    <video autoplay loop muted plays-inline class="background-vieo" src="Assets/videos/vide.mp4.mp4"
+        type="video/mp4">
+
+    </video>
 </body>
+<div class="wrapper">
+    <h2> Login </h2>
+    <div class="imput-field">
+        <input type="text" required>
+        <label for="">Introduce tu email</label>
+    </div>
+    <div class="imput-field">
+        <input type="password" required>
+        <label for="">Introduce tu contraseña</label>
+    </div>
+    <div class="forget">
+        <label for="remember">
+            <input type="checkbox" id="remember">
+            <p>Recordarme</p>
+        </label>
+        <a href="#">Olvido su contraseña</a>
+    </div>
+
+    <button type="submit">Entrar</button>
+    <div class="register">
+        <p>no posee cuenta? <a href="#">Registrarse</a></p>
+    </div>
+</div>
+
 </html>
